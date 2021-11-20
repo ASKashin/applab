@@ -1,0 +1,56 @@
+.content-1 {
+  background: url("../img/bg1.jpg") center bottom no-repeat;
+
+  nav {
+    a {
+      font-size: 16px;
+      color: $dark-blue;
+    }
+  }
+
+  .row {
+    .col-6 {
+      .badge {
+        position: relative;
+        color: $dark-blue;
+        font-size: 18px;
+        line-height: 35px;
+        background-color: #e2eaed;
+        border-radius: 35px;
+        padding: 0 47px;
+
+        span {
+          position: absolute;
+          left: 0;
+          display: inline-block;
+          line-height: 35px;
+          width: 35px;
+          border-radius: 50%;
+          background-color: #feaa25;
+          color: $white;
+        }
+      }
+
+      .lead {
+        font-size: 18px;
+        line-height: 28px;
+        color: $gray;
+        margin-bottom: 40px;
+      }
+
+      .buttons {
+        a:last-child {
+          text-decoration: none;
+          color: $blue;
+          font-size: 16px;
+          margin-left: 27px;
+        }
+      }
+
+      .phone {
+        position: relative;
+        top: 30px;
+      }
+    }
+  }
+}

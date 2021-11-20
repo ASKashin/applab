@@ -1,0 +1,15 @@
+.btn {
+  border-radius: 30px;
+  padding: 0 40px;
+  line-height: 57px;
+  font-size: 16px;
+  font-weight: 700;
+
+  &-primary {
+    background-color: $blue;
+    &:hover{
+      background-color: darken($blue, 15);
+    }
+  }
+}
+
