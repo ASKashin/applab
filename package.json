@@ -1,7 +1,7 @@
 {
   "name": "htmlboilerplate",
   "version": "1.0.0a",
-  "homepage": "src/build",
+  "homepage": "build",
   "private": false,
   "description": "Html boilerplate with scss, gulp, fontawesome and HTML partials.",
   "keywords": [
