@@ -1,0 +1,52 @@
+.content-4 {
+  padding: 130px 0 110px;
+
+  .container {
+    .title {
+      //width: 440px;
+    }
+
+    .decoration {
+      width: 1px;
+      height: 147px;
+      background-color: #b9b9b8;
+      opacity: .39;
+      padding: 0;
+    }
+
+    .lead {
+      color: $gray;
+      line-height: 26px;
+      font-size: 16px;
+    }
+
+    .info {
+      padding-top: 100px;
+      margin-top: 90px;
+
+      &-bg1 {
+        background: url("../img/payouts.png") 3% top no-repeat;
+      }
+
+      &-bg2 {
+        background: url("../img/network.png") 3% top no-repeat;
+      }
+
+      &-bg3 {
+        background: url("../img/badge.png") 3% top no-repeat;
+      }
+
+      &-title {
+        margin: 0;
+      }
+
+      &-text {
+        line-height: 26px;
+        font-size: 16px;
+        width: 265px;
+        margin: 0;
+        color: $gray;
+      }
+    }
+  }
+}

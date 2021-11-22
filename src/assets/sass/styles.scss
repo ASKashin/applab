@@ -22,24 +22,31 @@ h3 {
   color: $dark-blue;
 }
 
-//h4 { как сделать это гавнище)))
-//  font-weight: 600;
-//  font-size: 20px;
-//  line-height: 58px;
-//  color: $dark-blue;
-//
-//  .red {
-//    color: $red;
-//  }
-//
-//  .blue {
-//    color: $blue2;
-//  }
-//  .green{
-//    color: ;
-//  }
-//}
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 58px;
+  color: $dark-blue;
+
+  &.red {
+    color: $red;
+  }
+
+  &.blue {
+    color: $blue2;
+  }
+  &.green{
+    color: $green;
+  }
+}
+h5  {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: $dark-blue;
+}
 
 @import "content-1";
 @import "content-2";
 @import "content-3";
+@import "content-4";
