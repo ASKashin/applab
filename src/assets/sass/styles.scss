@@ -47,6 +47,12 @@ h5 {
   line-height: 50px;
   color: $dark-blue;
 }
+h6 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: $dark-blue;
+}
 
 @import "content-1";
 @import "content-2";
@@ -55,3 +61,4 @@ h5 {
 @import "content-5";
 @import "content-6";
 @import "content-7";
+@import "content-8";
