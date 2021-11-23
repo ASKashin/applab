@@ -1,0 +1,26 @@
+.content-5 {
+  padding: 70px 0 170px;
+  border-bottom: 1px solid rgba(61,63,68, 0.44);
+  .container {
+    .banner {
+      position: absolute;
+      left: 13%;
+    }
+
+    .info {
+      width: 435px;
+
+      &-title {
+        margin: 125px 0 25px;
+      }
+
+      &-lead {
+        font-size: 16px;
+        line-height: 26px;
+        color: $gray;
+        margin-bottom: 35px;
+      }
+    }
+
+  }
+}

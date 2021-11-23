@@ -35,11 +35,13 @@ h4 {
   &.blue {
     color: $blue2;
   }
-  &.green{
+
+  &.green {
     color: $green;
   }
 }
-h5  {
+
+h5 {
   font-weight: 600;
   font-size: 40px;
   line-height: 50px;
@@ -50,3 +52,5 @@ h5  {
 @import "content-2";
 @import "content-3";
 @import "content-4";
+@import "content-5";
+@import "content-6";
