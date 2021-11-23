@@ -11,5 +11,8 @@
       background-color: darken($blue, 15);
     }
   }
+  &.small{
+    width: 170px;
+  }
 }
 

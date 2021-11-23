@@ -1,0 +1,47 @@
+.content-7 {
+  background: url("../img/phone-3.png") right 35% no-repeat;
+  padding: 60px 0 150px;
+
+  .container {
+    .title {
+      width: 400px;
+    }
+
+    .lead {
+      width: 490px;
+      font-size: 16px;
+      line-height: 26px;
+      color: $gray;
+      margin-bottom: 10px;
+    }
+
+    .info {
+      padding-top: 100px;
+      margin-top: 60px;
+
+      &-bg1 {
+        background: url("../img/app-bg.png") 4% top no-repeat;
+      }
+
+      &-bg2 {
+        background: url("../img/planing-bg2.png") 4% top no-repeat;
+      }
+
+      &-bg3 {
+        background: url("../img/cloud-bg.png") 4% top no-repeat;
+      }
+
+      &-bg4 {
+        background: url("../img/support-bg2.png") 4% top no-repeat;
+      }
+
+      &-text {
+        width: 275px;
+        font-size: 16px;
+        line-height: 26px;
+        color: $gray;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

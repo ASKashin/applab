@@ -12,32 +12,46 @@
     color: $gray;
     margin-bottom: 30px;
   }
-  .info{
+
+  .info {
     margin-top: 60px;
     padding-top: 120px;
+
     &-bg1 {
       background: url("../img/app-bg.png") center top no-repeat;
     }
+
     &-bg2 {
       background: url("../img/award-bg.png") center top no-repeat;
     }
+
     &-bg3 {
       background: url("../img/cloud-bg.png") center top no-repeat;
     }
+
     &-bg4 {
       background: url("../img/custom-bg.png") center top no-repeat;
     }
+
     &-bg5 {
       background: url("../img/planing-bg.png") center top no-repeat;
     }
+
     &-bg6 {
       background: url("../img/support-bg.png") center top no-repeat;
     }
-    &-title{
+
+    &-title {
 
     }
-    &-text{
+
+    &-text {
       width: 270px;
+      font-size: 16px;
+      line-height: 26px;
+      color: $gray;
     }
   }
 }
+
+
