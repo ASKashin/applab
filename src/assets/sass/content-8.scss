@@ -13,12 +13,19 @@
     }
 
     .info {
-      border: 1px solid $gray2;
+      &-shadow{
+        border: 1px solid #ebebeb;
+      }
       border-radius: 10px;
       width: 317px;
       padding: 0;
       .price {
-        background: url("../img/price-bg.png") center top no-repeat;
+        &.price-bg1{
+          background: url("../img/price-bg1.png") center top no-repeat;
+        }
+        &.price-bg{
+          background: url("../img/price-bg.png") center top no-repeat;
+        }
 
 
         .price-rate {
@@ -50,9 +57,18 @@
       }
 
       .price-list {
-        .price-list-item {
+        padding: 20px 0 10px;
+        &__item {
+          font-size: 16px;
+          line-height: 48px;
           color: $gray2;
           list-style-type: none;
+
+        }
+        &__link{
+          color: #2500f9;
+          text-decoration: none;
+          margin-top: 20px;
         }
       }
     }
