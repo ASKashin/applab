@@ -1,0 +1,61 @@
+.content-9 {
+  padding: 140px;
+  background: url("../img/people-bg.png") left 63% no-repeat;
+
+  .container {
+
+    .title {
+      width: 500px;
+      margin-bottom: 25px;
+    }
+
+    .lead {
+      width: 500px;
+      font-size: 16px;
+      line-height: 26px;
+      color: $gray;
+    }
+
+    .list-items {
+      list-style-type: none;
+      padding-left: 0;
+
+      .list-item {
+        i {
+          color: #ffcc00;
+          font-size: 20px;
+          line-height: 58px;
+        }
+      }
+    }
+
+    .info-title {
+
+    }
+
+    .info-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: $gray;
+      margin-bottom: 60px;
+    }
+
+    .profile {
+      padding-left: 130px;
+      padding-bottom: 10px;
+      background: url("../img/zlatan-avatar.png") 5% top no-repeat;
+
+      &-name {
+        font-size: 18px;
+        line-height: 58px;
+        margin-bottom: 0;
+      }
+
+      &-info {
+        font-size: 18px;
+        color: $gray;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
