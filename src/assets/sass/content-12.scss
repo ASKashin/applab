@@ -1,0 +1,46 @@
+.content-12 {
+  background-color: #09142e;
+
+  .container {
+    .logo {
+      margin-top: 120px;
+    }
+  }
+
+  .nav {
+    margin-top: 40px;
+    &-item {
+
+    }
+
+    &-link {
+      font-size: 16px;
+      color: $white;
+    }
+  }
+
+  .cocial-items {
+    margin-top: 50px;
+    list-style-type: none;
+    padding-left: 0;
+
+    .cocial-item {
+
+      i {
+        color: #273043;
+        font-size: 30px;
+      }
+
+      .cocial-item__link--active {
+        color: $white;
+      }
+    }
+  }
+
+  .copy {
+    margin: 90px 0 130px;
+    color: $white;
+    opacity: .21;
+  }
+
+}
