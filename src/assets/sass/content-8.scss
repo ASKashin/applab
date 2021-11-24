@@ -13,17 +13,24 @@
     }
 
     .info {
-      &-shadow{
+      &-shadow {
         border: 1px solid #ebebeb;
       }
+
+      &-small {
+        height: 555px;
+      }
+
       border-radius: 10px;
       width: 317px;
       padding: 0;
+
       .price {
-        &.price-bg1{
+        &.price-bg1 {
           background: url("../img/price-bg1.png") center top no-repeat;
         }
-        &.price-bg{
+
+        &.price-bg {
           background: url("../img/price-bg.png") center top no-repeat;
         }
 
@@ -35,6 +42,7 @@
           color: $dark-blue;
           padding-top: 70px;
           margin-bottom: 0;
+
           span {
             font-size: 18px;
             color: $gray2;
@@ -58,17 +66,27 @@
 
       .price-list {
         padding: 20px 0 10px;
+        margin-bottom: 0;
+
+        &-small {
+          height: 320px;
+        }
+
         &__item {
           font-size: 16px;
           line-height: 48px;
           color: $gray2;
           list-style-type: none;
 
+          .btn {
+            margin-bottom: 10px;
+          }
         }
-        &__link{
+
+        &__link {
           color: #2500f9;
           text-decoration: none;
-          margin-top: 20px;
+
         }
       }
     }
