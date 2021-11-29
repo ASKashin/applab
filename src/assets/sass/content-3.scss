@@ -1,24 +1,25 @@
 .content-3 {
+  background: url("../img/phone-2.png") 14% 45px  no-repeat;
 
   .container {
-    .banner {
-      position: absolute;
-      left: 185px;
+    .title {
+      padding-top: 93px;
+      margin-bottom: 13px;
     }
 
     .lead {
       line-height: 26px;
       font-size: 16px;
       color: $gray;
-      margin-bottom: 25px;
+      margin-bottom: 31px;
     }
 
     .info {
       padding-left: 120px;
-      margin-top: 45px;
+      margin-top: 38px;
 
       &-bg1 {
-        background: url("../img/speed.png") 3% 90% no-repeat;
+        background: url("../img/speed.png") 3% 95% no-repeat;
       }
 
       &-bg2 {
@@ -27,6 +28,7 @@
 
       &-bg3 {
         background: url("../img/ellipse.png") 3% 95% no-repeat;
+        margin-bottom: 100px;
       }
 
       &-title {

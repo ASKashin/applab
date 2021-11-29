@@ -1,10 +1,11 @@
 .content-7 {
-  background: url("../img/phone-3.png") right 35% no-repeat;
-  padding: 60px 0 150px;
+  background: url("../img/phone-3.png") right 60px no-repeat;
+  padding: 20px 0 165px;
 
   .container {
     .title {
       width: 400px;
+      margin-bottom: 13px;
     }
 
     .lead {
@@ -12,12 +13,12 @@
       font-size: 16px;
       line-height: 26px;
       color: $gray;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
 
     .info {
       padding-top: 100px;
-      margin-top: 60px;
+      margin-top: 55px;
 
       &-bg1 {
         background: url("../img/app-bg.png") 4% top no-repeat;
@@ -34,6 +35,9 @@
       &-bg4 {
         background: url("../img/support-bg2.png") 4% top no-repeat;
       }
+      &-title{
+        margin-bottom: 0;
+      }
 
       &-text {
         width: 275px;
@@ -42,6 +46,9 @@
         color: $gray;
         margin-bottom: 0;
       }
+    }
+    .btn{
+
     }
   }
 }

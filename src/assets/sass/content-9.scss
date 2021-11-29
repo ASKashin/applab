@@ -1,6 +1,6 @@
 .content-9 {
-  padding: 140px;
-  background: url("../img/people-bg.png") left 63% no-repeat;
+  padding: 145px;
+  background: url("../img/people-bg.png") left 240px no-repeat;
 
   .container {
 
@@ -19,12 +19,13 @@
     .list-items {
       list-style-type: none;
       padding-left: 0;
+      margin-bottom: 0;
 
       .list-item {
         i {
           color: #ffcc00;
           font-size: 20px;
-          line-height: 58px;
+          line-height: 50px;
         }
       }
     }
@@ -38,7 +39,7 @@
     .profile {
       padding-left: 130px;
       padding-bottom: 10px;
-      background: url("../img/zlatan-avatar.png") 5% top no-repeat;
+      background: url("../img/zlatan-avatar.png") 5% 5px no-repeat;
 
       &-name {
         font-size: 18px;

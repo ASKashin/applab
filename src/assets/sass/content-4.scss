@@ -1,10 +1,7 @@
 .content-4 {
-  padding: 160px 0 110px;
+  padding: 90px 0 110px;
 
   .container {
-    .title {
-      //width: 440px;
-    }
 
     .decoration {
       width: 1px;
@@ -12,6 +9,7 @@
       background-color: #b9b9b8;
       opacity: .59;
       padding: 0;
+      margin: 0 15px 0 20px;
     }
 
     .lead {
@@ -22,7 +20,7 @@
 
     .info {
       padding-top: 100px;
-      margin-top: 90px;
+      margin-top: 105px;
 
       &-bg1 {
         background: url("../img/payouts.png") 3% top no-repeat;
