@@ -1,6 +1,6 @@
 .content-8 {
   padding-bottom: 100px;
-  border-bottom: 1px solid rgba(61, 63, 68, 0.44);
+  border-bottom: 2px solid $light-gray2;
 
   .container {
     .title {
@@ -17,12 +17,11 @@
     }
 
     .btn-group{
-      width: 290px;
-      border: 2px solid $gray;
+      border: 2px solid $light-gray2;
       border-radius: 30px;
-      line-height: 57px;
-      background-color: $white;
       margin-bottom: 40px;
+      line-height: 58px;
+      padding: 5px !important;
     }
 
     .info {
